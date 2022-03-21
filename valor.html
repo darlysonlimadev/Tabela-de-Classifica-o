@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="javascript.js"></script>
+  <title>
+    VALORES PARA VENDA
+  </title>
+</head>
+
+<body>
+  <h1 class="page-title">CALCULANDO PREÇOS DOS PRODUTOS</h1>
+  <br><br>
+  <label>Valor unitário da compra do produto</label><br>
+  <input type="number" id="valorComprado" size="2" />
+  <br><br>
+  <label>Porcentagem do lucro (%)</label><br>
+  <input type="number" id="porcentagemLucro" size="2" />
+  <br><br>
+  <label>Quantas Unidades</label><br>
+  <input type="number" id="quantasUnidades" size="2" />
+  <br><br>
+  <label>Taxa adicional</label><br>
+  <input type="number" id="taxaProduto" size="2" />
+  <br><br>
+  <button type="submit" onclick="Calcular()">Calcular</button>
+  <button type="reset" id="limparTela" onclick="Limpar()">Limpar</button> 
+  <h2 id="valorCalculado"></h2>
+  <h2 id="valorUnidadeCalculado"></h2>
+
+  <a href="#" target="_blank">
+    <img src="logo.jpeg" alt="" class="ampliart-logo">
+
+</body>
+
+</html>
